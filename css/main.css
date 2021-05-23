@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.card__button--orange {
+  background-color: #e38826;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in;
+  background-color: white; }
+  .card__button--orange:hover, .card__button--orange:focus {
+    color: #e38826; }
+
+.card__button--cyan {
+  background-color: #006970;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in;
+  background-color: white; }
+  .card__button--cyan:hover, .card__button--cyan:focus {
+    color: #006970; }
+
+.card__button--darker-cyan {
+  background-color: #004241;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in;
+  background-color: white; }
+  .card__button--darker-cyan:hover, .card__button--darker-cyan:focus {
+    color: #004241; }

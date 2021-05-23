@@ -1,0 +1,28 @@
+@import 'colors.scss';
+
+// defining a button mixin for 3-column challenge
+@mixin button($background-color) {
+    background-color: $background-color;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+    background-color: white;
+
+    &:hover,
+    &:focus
+    {
+        color: $background-color;
+    }
+
+}
+
+.card__button--orange {
+    @include button($bright-orange);
+}
+
+.card__button--cyan {
+    @include button($dark-cyan);
+}
+
+.card__button--darker-cyan {
+    @include button($darker-cyan);
+}
