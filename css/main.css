@@ -7,29 +7,114 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f2f2f2; }
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px; }
+
+.container {
+  display: flex; }
 
 .card__button--orange {
-  background-color: #e38826;
   transition-duration: 100ms;
   transition-timing-function: ease-in;
-  background-color: white; }
+  background-color: white;
+  padding: 15px 35px;
+  border-radius: 27px;
+  text-decoration: none;
+  color: #e38826;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: 2px solid white;
+  font-family: "Lexend Deca", sans-serif; }
   .card__button--orange:hover, .card__button--orange:focus {
-    color: #e38826; }
+    background-color: #e38826;
+    color: white; }
 
-.card__button--cyan {
-  background-color: #006970;
+.card__button--dark-cyan {
   transition-duration: 100ms;
   transition-timing-function: ease-in;
-  background-color: white; }
-  .card__button--cyan:hover, .card__button--cyan:focus {
-    color: #006970; }
+  background-color: white;
+  padding: 15px 35px;
+  border-radius: 27px;
+  text-decoration: none;
+  color: #006970;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: 2px solid white;
+  font-family: "Lexend Deca", sans-serif; }
+  .card__button--dark-cyan:hover, .card__button--dark-cyan:focus {
+    background-color: #006970;
+    color: white; }
 
 .card__button--darker-cyan {
-  background-color: #004241;
   transition-duration: 100ms;
   transition-timing-function: ease-in;
-  background-color: white; }
+  background-color: white;
+  padding: 15px 35px;
+  border-radius: 27px;
+  text-decoration: none;
+  color: #004241;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: 2px solid white;
+  font-family: "Lexend Deca", sans-serif; }
   .card__button--darker-cyan:hover, .card__button--darker-cyan:focus {
-    color: #004241; }
+    background-color: #004241;
+    color: white; }
+
+.cards {
+  display: flex;
+  width: 100%;
+  max-width: 1000px; }
+
+.card {
+  padding: 60px 50px;
+  color: white; }
+  .card h1 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 30px 0px; }
+  .card p {
+    line-height: 30px;
+    font-family: "Lexend Deca", sans-serif;
+    margin-bottom: 100px;
+    opacity: 1;
+    font-size: 15px; }
+  .card:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; }
+  .card:nth-child(3) {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; }
+
+.card--orange {
+  background-color: #e38826; }
+
+.card--dark-cyan {
+  background-color: #006970; }
+
+.card--darker-cyan {
+  background-color: #004241; }
+
+@media only screen and (max-width: 1000px) {
+  .cards {
+    padding: 25px;
+    flex-direction: column; }
+  .card p {
+    margin-bottom: 50px; }
+  .card:nth-child(1) {
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
+  .card:nth-child(3) {
+    border-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; } }

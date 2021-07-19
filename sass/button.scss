@@ -1,25 +1,31 @@
-@import 'colors.scss';
+@import "colors.scss";
 
 // defining a button mixin for 3-column challenge
 @mixin button($background-color) {
-    background-color: $background-color;
     transition-duration: 100ms;
     transition-timing-function: ease-in;
     background-color: white;
+    padding: 15px 35px;
+    border-radius: 27px;
+    text-decoration: none;
+    color: $background-color;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    font-family: "Lexend Deca", sans-serif;
 
     &:hover,
-    &:focus
-    {
-        color: $background-color;
+    &:focus {
+        background-color: $background-color;
+        color: white;
     }
-
 }
 
 .card__button--orange {
     @include button($bright-orange);
 }
 
-.card__button--cyan {
+.card__button--dark-cyan {
     @include button($dark-cyan);
 }
 

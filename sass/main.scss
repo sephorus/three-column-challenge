@@ -1,4 +1,4 @@
-@import 'colors.scss';
+@import "colors.scss";
 
 * {
     padding: 0;
@@ -11,9 +11,20 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: $light-gray;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
 }
 
-@import 'button.scss';
-@import 'card.scss';
+.container {
+    display: flex;
+}
+
+@import "button.scss";
+@import "card.scss";

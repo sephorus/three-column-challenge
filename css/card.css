@@ -1,0 +1,50 @@
+.cards {
+  display: flex;
+  width: 100%;
+  max-width: 1000px; }
+
+.card {
+  padding: 60px 50px;
+  color: white; }
+  .card h1 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 30px 0px; }
+  .card p {
+    line-height: 30px;
+    font-family: "Lexend Deca", sans-serif;
+    margin-bottom: 100px;
+    opacity: 1;
+    font-size: 15px; }
+  .card:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; }
+  .card:nth-child(3) {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; }
+
+.card--orange {
+  background-color: #e38826; }
+
+.card--dark-cyan {
+  background-color: #006970; }
+
+.card--darker-cyan {
+  background-color: #004241; }
+
+@media only screen and (max-width: 1000px) {
+  .cards {
+    padding: 25px;
+    flex-direction: column; }
+  .card p {
+    margin-bottom: 50px; }
+  .card:nth-child(1) {
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
+  .card:nth-child(3) {
+    border-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; } }
