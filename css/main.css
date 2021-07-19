@@ -28,7 +28,6 @@ body {
   border-radius: 27px;
   text-decoration: none;
   color: #e38826;
-  font-weight: 700;
   letter-spacing: 1px;
   border: 2px solid white;
   font-family: "Lexend Deca", sans-serif; }
@@ -44,7 +43,6 @@ body {
   border-radius: 27px;
   text-decoration: none;
   color: #006970;
-  font-weight: 700;
   letter-spacing: 1px;
   border: 2px solid white;
   font-family: "Lexend Deca", sans-serif; }
@@ -60,7 +58,6 @@ body {
   border-radius: 27px;
   text-decoration: none;
   color: #004241;
-  font-weight: 700;
   letter-spacing: 1px;
   border: 2px solid white;
   font-family: "Lexend Deca", sans-serif; }
@@ -81,13 +78,15 @@ body {
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin: 30px 0px; }
+    margin: 30px 0px;
+    opacity: 0.9; }
   .card p {
     line-height: 30px;
     font-family: "Lexend Deca", sans-serif;
     margin-bottom: 100px;
     opacity: 1;
-    font-size: 15px; }
+    font-size: 15px;
+    opacity: 0.9; }
   .card:nth-child(1) {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px; }
