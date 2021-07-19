@@ -3,7 +3,7 @@
 ## Welcome! 👋
 
 My solution to the 3-column preview card component challenge on Frontend Mentor.
-Built on HTML, SASS, JavaScript, using Gulp to automate tasks like (running a local server,
+Built on HTML and SASS, using Gulp to automate tasks like (running a local server,
 minifying code, optimizing images, preprocessing CSS, etc.).
 
 ## Installation
