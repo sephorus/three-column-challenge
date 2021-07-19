@@ -2,11 +2,10 @@
   transition-duration: 100ms;
   transition-timing-function: ease-in;
   background-color: white;
-  padding: 15px 35px;
+  padding: 12px 30px;
   border-radius: 27px;
   text-decoration: none;
   color: #e38826;
-  letter-spacing: 1px;
   border: 2px solid white;
   font-family: "Lexend Deca", sans-serif; }
   .card__button--orange:hover, .card__button--orange:focus {
@@ -17,11 +16,10 @@
   transition-duration: 100ms;
   transition-timing-function: ease-in;
   background-color: white;
-  padding: 15px 35px;
+  padding: 12px 30px;
   border-radius: 27px;
   text-decoration: none;
   color: #006970;
-  letter-spacing: 1px;
   border: 2px solid white;
   font-family: "Lexend Deca", sans-serif; }
   .card__button--dark-cyan:hover, .card__button--dark-cyan:focus {
@@ -32,11 +30,10 @@
   transition-duration: 100ms;
   transition-timing-function: ease-in;
   background-color: white;
-  padding: 15px 35px;
+  padding: 12px 30px;
   border-radius: 27px;
   text-decoration: none;
   color: #004241;
-  letter-spacing: 1px;
   border: 2px solid white;
   font-family: "Lexend Deca", sans-serif; }
   .card__button--darker-cyan:hover, .card__button--darker-cyan:focus {
